@@ -1,0 +1,16 @@
+current directory: /home/hera/workspace/auctions/vendor/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+/home/hera/.rbenv/versions/3.0.2/bin/ruby -I /home/hera/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20220428-17302-r2zagu.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /home/hera/workspace/auctions/vendor/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+make DESTDIR\= clean
+
+current directory: /home/hera/workspace/auctions/vendor/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+make DESTDIR\=
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/hera/workspace/auctions/vendor/bundle/ruby/3.0.0/gems/strscan-3.0.1/ext/strscan
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20220428-17302-wz83j9
