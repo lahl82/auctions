@@ -32,4 +32,17 @@ RSpec.describe Auction, type: :model do
     subject.end_date = nil
     expect(subject).to_not be_valid
   end
+
+  context "have Associations" do
+    it "is valid if it belong to User" do
+      should belong_to(:user).without_validating_presence
+    end
+  end
+end
+
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
 end

@@ -1,6 +1,12 @@
 # spec/factories.rb
 
 FactoryBot.define do
+  factory :bid do
+    bidder_id { 1 }
+    auction_id { 1 }
+    amount { 1 }
+  end
+
   factory :user do
     password { Faker::Internet.password }
     email { Faker::Internet.email }
